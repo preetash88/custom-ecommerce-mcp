@@ -1,0 +1,37 @@
+{
+  "name": "mcp-ecommerce-crud",
+  "version": "1.0.0",
+  "type": "module",
+  "main" : "dist/mcp/server.js",  
+  "bin" :{
+    "ecommerce-products-mcp":"dist/mcp/server.js"
+  },
+  "scripts": {
+    "dev:mcp": "tsx src/mcp/server.ts",
+    "dev:demo": "tsx src/index.ts",
+    "build": "tsc -p .",
+    "check": "tsc -p . --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk" : "^1.21.1",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.9.7",
+    "zod": "^3.23.8"
+  },
+
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.9.1",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  },
+  "files": [
+
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "author" : "Preetash",
+  "license": "MIT"
+}

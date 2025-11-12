@@ -1,0 +1,41 @@
+# Source files
+src/
+tsconfig.json
+.env
+*.env
+
+# Development files
+*.log
+.DS_Store
+node_modules/
+coverage/
+.nyc_output/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Testing
+test/
+tests/
+__tests__/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Build artifacts that shouldn't be in npm
+*.tsbuildinfo
+
+# Keep these in npm package:
+# dist/
+# sql/
+# README.md
+# LICENSE
+# package.json
